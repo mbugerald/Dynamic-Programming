@@ -1,0 +1,3 @@
+### Description
+#### Fibinacci
+Generally the call of simple fibinacci is tree like with two phases n - 1 and n - 2. In the first case scenario the code is executed from branch to branch to obtained the desired result, generally notice to go through some tree structures of similarity multiple times. Therefore, the execution time is exponential and the application runs slow. But including memorization, the steps once executed similar steps of the tree structure are avoided therefore computational time is exchanged from exponential to linear, resulting to faster code and run time execution with performance overhead. 
