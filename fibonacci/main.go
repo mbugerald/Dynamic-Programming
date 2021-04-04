@@ -22,6 +22,7 @@ func fib(n int) int {
 }
 
 // memoized
+// 	To improve performance
 func fibMemoized(n int, memo map[int]int) int {
 
 	if _, ok := memo[n]; ok {
